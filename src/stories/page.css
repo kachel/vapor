@@ -1,0 +1,26 @@
+.example {
+  height: 100vh;
+  font-size: 16px;
+  font-family: "Georgia", serif;
+  padding: 0;
+  margin: 0 auto;
+  background: #9796f0; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #feeef8,
+    #c3c3f6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #feeef8,
+    #c3c3f6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.header-fancy {
+  letter-spacing: 0.5rem;
+  color: rgb(190, 3, 253);
+  text-shadow: -0.1rem -0.1rem 0 #6bffff, 0.1rem 0.1rem 0 #ff819e;
+}

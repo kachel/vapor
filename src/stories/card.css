@@ -1,0 +1,19 @@
+.storybook-card {
+  width: clamp(28ch, 60%, 65ch);
+  font-family: "Courier", monospace;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+.storybook-card-header {
+  padding-block: 0.5rem;
+  background: navy;
+  color: white;
+  text-align: center;  
+}
+
+.storybook-card-container {
+  background-color: silver;
+  padding-inline: 2rem;
+}

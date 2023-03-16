@@ -1,0 +1,7 @@
+.storybook-divider {
+        margin-block: 2rem;
+        padding: 0;
+        height: 30px;
+        background: repeating-conic-gradient(black 0% 25%, white 0% 50%) 50% / 30px
+          30px;
+}
